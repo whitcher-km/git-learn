@@ -1,1 +1,3 @@
 Source file 1
+new line
+second new line
