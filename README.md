@@ -88,3 +88,24 @@ git branch -d имя_рек
 git checkout main
 git merge dev
 ```
+
+#### Возврат на предыдущую версию
+```sh
+git chekout 11ace8bf0502543819bb7e005b3d4ac96f6bef6f
+# вернуться на актуальную
+git checkout main
+# изменить прошлый комит
+git commit --amend
+# Жостко отменить все изменения последних 2-х коммитов
+git reset --hard HEAD~2
+# Стереть информацию о 3-х последнихкоммитах в логе физически оставив содержимое файлов
+git reset --soft HEAD~3
+```
+
+#### Работа з GitHub
+```sh
+# клонирование репозитория
+git clone https://github.com/whitcher-km/git-learn.git
+# создаём новую ветку для локальных изменений
+
+```
